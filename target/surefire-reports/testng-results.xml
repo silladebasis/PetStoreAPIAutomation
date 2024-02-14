@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-14T12:37:17 EST" name="Pet Store API" finished-at="2024-02-14T12:37:20 EST" duration-ms="3229">
+    <groups>
+    </groups>
+    <test started-at="2024-02-14T12:37:17 EST" name="PetStoreAPIAutomation" finished-at="2024-02-14T12:37:20 EST" duration-ms="3229">
+      <class name="api.tests.UserTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:api.tests.UserTests@411f53a0]" started-at="2024-02-14T12:37:17 EST" name="setUp" finished-at="2024-02-14T12:37:17 EST" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateUser()[pri:1, instance:api.tests.UserTests@411f53a0]" started-at="2024-02-14T12:37:17 EST" name="testCreateUser" finished-at="2024-02-14T12:37:19 EST" duration-ms="1575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser -->
+        <test-method signature="testGetUserByName()[pri:2, instance:api.tests.UserTests@411f53a0]" started-at="2024-02-14T12:37:19 EST" name="testGetUserByName" finished-at="2024-02-14T12:37:19 EST" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserByName -->
+        <test-method signature="testDeleteUser()[pri:3, instance:api.tests.UserTests@411f53a0]" started-at="2024-02-14T12:37:19 EST" name="testDeleteUser" finished-at="2024-02-14T12:37:19 EST" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUser -->
+      </class> <!-- api.tests.UserTests -->
+      <class name="api.tests.UserTests2">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:api.tests.UserTests2@5bf0d49]" started-at="2024-02-14T12:37:19 EST" name="setUp" finished-at="2024-02-14T12:37:19 EST" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateUser()[pri:1, instance:api.tests.UserTests2@5bf0d49]" started-at="2024-02-14T12:37:19 EST" name="testCreateUser" finished-at="2024-02-14T12:37:19 EST" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser -->
+        <test-method signature="testGetUserByName()[pri:2, instance:api.tests.UserTests2@5bf0d49]" started-at="2024-02-14T12:37:19 EST" name="testGetUserByName" finished-at="2024-02-14T12:37:20 EST" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserByName -->
+        <test-method signature="testDeleteUser()[pri:3, instance:api.tests.UserTests2@5bf0d49]" started-at="2024-02-14T12:37:20 EST" name="testDeleteUser" finished-at="2024-02-14T12:37:20 EST" duration-ms="419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUser -->
+      </class> <!-- api.tests.UserTests2 -->
+    </test> <!-- PetStoreAPIAutomation -->
+  </suite> <!-- Pet Store API -->
+</testng-results>
